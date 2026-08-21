@@ -1950,6 +1950,12 @@ export const components: ComponentDefinition[] = [
     dependencies: ["motion"],
   },
   {
+    name: "palette",
+    path: path.join(__dirname, "../icons/palette.tsx"),
+    registryDependencies: [],
+    dependencies: ["motion"],
+  },
+  {
     name: "panel-left-close",
     path: path.join(__dirname, "../icons/panel-left-close.tsx"),
     registryDependencies: [],
