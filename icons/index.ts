@@ -435,6 +435,7 @@ import { HeartHandshakeIcon } from "./heart-handshake";
 import { HeartPulseIcon } from "./heart-pulse";
 import { LeafIcon } from "./leaf";
 import { LeafyGreenIcon } from "./leafy-green";
+import { PaletteIcon } from "./palette";
 import { PhoneIcon } from "./phone";
 import { PhoneCallIcon } from "./phone-call";
 import { PhoneForwardedIcon } from "./phone-forwarded";
@@ -4226,6 +4227,11 @@ const ICON_LIST: IconListItem[] = [
     name: "cloud-sync",
     icon: CloudSyncIcon,
     keywords: ["cloud", "sync"],
+  },
+  {
+    name: "palette",
+    icon: PaletteIcon,
+    keywords: ["palette", "color", "colour", "paint", "art", "brush", "theme"],
   },
 ].sort((a, b) => a.name.localeCompare(b.name));
 
